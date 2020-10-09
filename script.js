@@ -3,7 +3,6 @@
     const open = document.querySelector(".openbtn");
     const close = document.querySelector(".closebtn");
 
-
     const [highest, lowest] = [document.querySelector("#highest"), document.querySelector("#lowest") ];
     const [high, low] = [document.querySelector(".high"), document.querySelector(".low")];
 
