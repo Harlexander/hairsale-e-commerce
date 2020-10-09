@@ -1,0 +1,208 @@
+body{
+    background-image: url("https://fivmagazine.com/storage/2018/09/schmuckfotografie-schmuck-fotografie-ringe-kamera-objektiv-ausr%C3%BCstung.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    padding: 0px 10px 10px 10px;
+    background-color: whitesmoke;
+    text-align: center;
+  }
+  .steps{
+    display: none;
+  }
+  @media (min-width: 600px) {
+    .steps{
+      display: block;    
+    }
+    .sm-step{
+      display: none;
+    }
+    .footer{
+      height: 500px;
+    }
+    .special{
+      height: 400px;
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+a:focus{
+  text-decoration: none;
+}
+.spn{
+      margin-right: 20px;
+      font-size: 20px;
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .img-responsive{
+      height: 350px;
+      width: max-content;
+  }
+  #lowest{
+      display: none;
+  }
+.container-fluid{
+    background: whitesmoke;
+    padding-top: 30px;
+}
+.other{
+    padding: 15px 0px;
+    cursor: pointer;
+    margin: 10px 0px 20px 0px;
+}
+.other:hover{
+    background: rgba(148, 141, 141, 0.5);
+}
+.year{
+    color: #ff7c00;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.special{
+    padding: 50px;
+}
+  .logo{
+      height: 40px;
+  }
+  .brand{
+    font-size: 20px;
+}
+  .product{
+      padding: 20px;
+  }
+  .item{
+      height: 350px;
+  }
+  .icons{
+      height: 80px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  
+  }
+  
+  .sidenav a:hover{
+    color: black;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+.unda{
+  position: relative;
+  display: inline-block;
+  padding: 8px;
+}
+.unda::after{
+  content: "";
+  height: 2px;
+  width: 60px;
+  background: #ff7c00;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 20%);
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+.footer{
+  background-color: rgb(6, 7, 43);
+  color: rgb(179, 175, 175);
+  margin: 0;
+  padding: 40px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-whatsapp {
+  background: green;
+  color: white;
+}
+.list p{
+  font-size: 15px;
+}
+.list h4{
+  margin: 40px 0px 35px 0px;
+  font-weight: bold;
+  color: white;
+}
+.list a{
+  text-decoration: none;
+  color: rgb(179, 175, 175);
+}
+.list li{
+  margin: 10px 0px;
+}
+.bottom span{
+  font-size: 25px;
+  font-family: monospace;
+}
