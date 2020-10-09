@@ -6,7 +6,12 @@ body{
     background-position: right;
 }
 /* Remove the navbar's default margin-bottom and rounded borders */ 
-
+.carousel-inner{
+  height: 200px;
+}
+.product .container{
+  padding: 40px;
+}
 .navbar {
     margin-bottom: 0;
     border: 0;
@@ -39,7 +44,7 @@ a:focus{
 }
 .spn{
       margin-right: 20px;
-      font-size: 20px;
+      font-size: 15px;
       cursor: pointer;
       font-family: Arial, Helvetica, sans-serif;
   }
@@ -129,7 +134,7 @@ a:focus{
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
     margin: auto;
-    min-height:200px;
+    height: 100%;
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
