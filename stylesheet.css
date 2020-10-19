@@ -6,16 +6,11 @@ body{
     background-position: right;
 }
 /* Remove the navbar's default margin-bottom and rounded borders */ 
-.carousel-inner{
-  height: 200px;
-}
-.product .container{
-  padding: 40px;
-}
+
 .navbar {
     margin-bottom: 0;
     border: 0;
-    padding: 0px 10px 10px 10px;
+    padding: 0px 10px 10px 0px;
     background-color: whitesmoke;
     text-align: center;
   }
@@ -29,15 +24,6 @@ body{
     .sm-step{
       display: none;
     }
-    .footer{
-      height: 500px;
-    }
-    .special{
-      height: 400px;
-    }
-    .carousel-inner{
-      height: 500px;
-    }
   }
   a{
     text-decoration: none;
@@ -47,7 +33,7 @@ a:focus{
 }
 .spn{
       margin-right: 20px;
-      font-size: 15px;
+      font-size: 20px;
       cursor: pointer;
       font-family: Arial, Helvetica, sans-serif;
   }
@@ -93,6 +79,11 @@ a:focus{
   .icons{
       height: 80px;
   }
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
   .sidenav {
     height: 100%;
     width: 0;
@@ -137,7 +128,7 @@ a:focus{
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
     margin: auto;
-    height: 100%;
+    min-height:200px;
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -160,7 +151,18 @@ a:focus{
   bottom: 0;
   left: calc(50% - 20%);
 }
-
+.footer{
+  background-color: rgb(6, 7, 43);
+  color: rgb(179, 175, 175);
+  margin: 0;
+  padding: 40px;
+}
+.footer li a{
+  color: white;
+}
+.fa:hover {
+  opacity: 0.7;
+}
 .fa {
   padding: 10px;
   font-size: 20px;
@@ -169,16 +171,6 @@ a:focus{
   text-decoration: none;
   border-radius: 100%;
 }
-.footer{
-  background-color: rgb(6, 7, 43);
-  color: rgb(179, 175, 175);
-  margin: 0;
-  padding: 40px;
-}
-.fa:hover {
-  opacity: 0.7;
-}
-
 .fa-facebook {
 background: #3B5998;
 color: white;
@@ -214,4 +206,58 @@ color: white;
 .bottom span{
   font-size: 25px;
   font-family: monospace;
+}
+.cart-items{
+  height: 200px;
+  background-color: white;
+}
+#name{
+  font-size: large;
+}
+#price{
+  color: #ff7c00;
+  font-size: medium;
+}
+
+.fa-fa-trash-o{
+  cursor: pointer;
+}
+hr{
+  margin: 15px;
+}
+.cart{
+  margin-bottom: 50px;
+}
+#cart{
+  margin-bottom: 50px;
+}
+.add-to-cart{
+  background-color: #ff7c00;
+  color: white;
+}
+.products .container{
+  margin: 5px 5px 20px 5px;
+}
+.cart-icon{
+  position: relative;
+  display: inline;
+}
+.cart-icon span{
+  background: black;
+  color: white;
+  padding: 3px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+.alert{
+  display: none;
+}
+.quantity{
+  width: 60px;
+}
+.items{
+  background-color: white;
 }
