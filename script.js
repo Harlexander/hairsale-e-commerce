@@ -6,7 +6,7 @@
     const [highest, lowest] = [document.querySelector("#highest"), document.querySelector("#lowest") ];
     const [high, low] = [document.querySelector(".high"), document.querySelector(".low")];
 
-    open.addEventListener("click", ()=>{ 
+    open.addEventListener("click", (event)=>{ 
         if (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth < 768 ) {
             document.getElementById("mySidenav").style.width = "100%";
         }else{

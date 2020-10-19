@@ -35,6 +35,9 @@ body{
     .special{
       height: 400px;
     }
+    .carousel-inner{
+      height: 500px;
+    }
   }
   a{
     text-decoration: none;
